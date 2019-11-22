@@ -46,7 +46,7 @@
 
           <div class="container" style="padding:10%;">
     
-         <h1 style=' text-align:center;color: #eccb1a;text-shadow: 2px 2px 3px #000;'>Comentario inserido com sucesso, obrigado pela avaliação.</h1>
+         <h1 style=' text-align:center;color: #eccb1a;text-shadow: 2px 2px 3px #000;'>Comentário inserido com sucesso, obrigado pela avaliação.</h1>
          <img src="img/LogoProjeto.png" alt="">
 
     

@@ -88,7 +88,7 @@
         <ul class="nav nav-tabs">
             <li class="nav-item" style="text-align:end;"><a class="nav-link active" style="background:#fdfdfd;" href="Administrador.php">Controle Produtos</a></li>
             <li class="nav-item"><a class="nav-link" href="CadastroProdutos.php">Cadastrar Produtos</a></li>
-            <li class="nav-item"><a class="nav-link" href="InserirCat.php">Inserir Categoria</a></li>   
+            <li class="nav-item"><a class="nav-link" href="InserirCat.php">Cadastrar Categoria</a></li>   
             <li class="nav-item"><a class="nav-link" href="Usuarios.php">Controle Usuários</a></li>
             <li class="nav-item"><a class="nav-link" href="Avaliacoes.php">Controle Avaliações</a></li>                       
         </ul>
@@ -171,7 +171,7 @@
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Editar item "<?php echo $row['nome_prod'] ?>"</h3>
+                                                <h3 class="card-title">Editar produto "<?php echo $row['nome_prod'] ?>"</h3>
                                             </div> 
                                         <div class="card-body"> 
                                     
@@ -208,8 +208,8 @@
                                                 
                                                 
                                                 <div style="text-align:center;" class="form-group">
-                                                    <input style="float:left;"  type="submit" class="btn btn-primary" value="Concluir">
-                                                    <button style="float:right;" href="" class="btn btn-danger" data-dismiss="modal">Cancelar</button>    
+                                                    <input style="float:right;"  type="submit" class="btn btn-primary" value="Concluir">
+                                                    <button style="float:left;" href="" class="btn btn-danger" data-dismiss="modal">Cancelar</button>    
                                                 </div>
                                             </form>
                                         </div>
@@ -245,7 +245,9 @@
                                                 </div> 
                                                 <hr>
                                                 <div class="form-group">
-                                                    <input type="submit" class="btn btn-primary">
+                                                    <input type="submit" class="btn btn-primary" style="float: right;">
+                                                    <button href="" class="btn btn-danger" style="margin-right:2%;float:left;" data-dismiss="modal">Cancelar</button>
+                                                    
                                                 </div>
                                             </form>
 
@@ -268,11 +270,11 @@
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Deseja excluir o item "<?php echo $row['id_prod'] ?>"?</h3>
+                                                <h3 class="card-title">Deseja excluir o item "<?php echo $row['nome_prod'] ?>"?</h3>
                                             </div> 
                                         <div class="card-body">
-                                        <a href="ExcluiProd.php/?id=<?php echo $row['id_prod'] ?>" style="margin:0 2%" class="btn btn-primary btn-lg">Sim</a>
-                                        <button href="" class="btn btn-danger btn-lg" data-dismiss="modal">Não</button>    
+                                        <a href="ExcluiProd.php/?id=<?php echo $row['id_prod'] ?>" style="margin:0 2%;float: right;" class="btn btn-primary btn-lg">Sim</a>
+                                        <button href="" class="btn btn-danger btn-lg" data-dismiss="modal" style="float: left;">Não</button>    
                                         
 
                                         </div>
@@ -338,7 +340,7 @@
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Editar item "<?php echo $row['nome_prod'] ?>"</h3>
+                                                <h3 class="card-title">Editar produto "<?php echo $row['nome_prod'] ?>"</h3>
                                             </div> 
                                         <div class="card-body"> 
 
@@ -376,8 +378,8 @@
                                                 
                                                 
                                                 <div style="text-align:center;" class="form-group">
-                                                    <input style="float:left;"  type="submit" class="btn btn-primary" value="Concluir">
-                                                    <button style="float:right;" href="" class="btn btn-danger" data-dismiss="modal">Cancelar</button>    
+                                                    <input style="float:right;"  type="submit" class="btn btn-primary" value="Concluir">
+                                                    <button style="float:left;" href="" class="btn btn-danger" data-dismiss="modal">Cancelar</button>    
                                                 </div>
                                             </form>
                                         </div>
@@ -415,8 +417,8 @@
                                                 <hr>
                                                
                                                 <div class="form-group">
-                                                    <input style="float:left;" type="submit" class="btn btn-primary" value="Enviar">
-                                                    <button href="" class="btn btn-danger" style="margin-right:2%;float:right;" data-dismiss="modal">Cancelar</button>
+                                                    <input style="float:right;" type="submit" class="btn btn-primary" value="Enviar">
+                                                    <button href="" class="btn btn-danger" style="margin-right:2%;float:left;" data-dismiss="modal">Cancelar</button>
                                                     
                                                 </div>
                                             </form>
@@ -440,8 +442,8 @@
                                                 <h3 class="card-title">Deseja excluir o item "<?php echo $row['nome_prod'] ?>"?</h3>
                                             </div> 
                                         <div class="card-body">
-                                        <a href="ExcluiProd.php/?id=<?php echo $row['id_prod'] ?>" style="margin:0 2%" class="btn btn-primary btn-lg">Sim</a>
-                                        <button href="" style="float: right;" class="btn btn-danger btn-lg" data-dismiss="modal">Não</button>
+                                        <a href="ExcluiProd.php/?id=<?php echo $row['id_prod'] ?>" style="margin:0 2%;float: right;" class="btn btn-primary btn-lg">Sim</a>
+                                        <button href="" style="float: left;" class="btn btn-danger btn-lg" data-dismiss="modal">Não</button>
                                         </div>
                                     </div>
                                 </div>

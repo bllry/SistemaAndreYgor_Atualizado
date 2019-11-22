@@ -88,7 +88,7 @@ html{
 <ul class="nav nav-tabs">
     <li class="nav-item" ><a class="nav-link" href="Administrador.php">Controle Produtos</a></li>
     <li class="nav-item" ><a style="background:#fdfdfd;" class="nav-link active" href="CadastroProdutos.php">Cadastrar Produtos</a></li>
-    <li class="nav-item"><a class="nav-link" href="inserirCat.php">Inserir Categoria</a></li>
+    <li class="nav-item"><a class="nav-link" href="inserirCat.php">Cadastrar Categoria</a></li>
     <li class="nav-item"><a class="nav-link" href="Usuarios.php">Controle Usuários</a></li>  
     <li class="nav-item"><a class="nav-link" href="Avaliacoes.php">Controle Avaliações</a></li>                    
 </ul>
@@ -134,7 +134,7 @@ html{
             </div>
                 
                 <div style="text-align:end;" class="form-group">
-               <input type="submit" value="Cadastrar" class="btn btn-primary" style="float: left;">    
+               <input type="submit" value="Cadastrar" class="btn btn-primary" style="float: right;">    
                </div>
                
 

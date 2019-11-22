@@ -379,12 +379,14 @@
 
 
                 <i class="fa fa-building fa-lg" style="float:left;font-size: 11em;margin: 3% 5%;color:#ffec8c;text-shadow: 8px 8px 8px #2f2f2f;" aria-hidden="true"></i> <br>
-                Uma nova loja com conceito de atendimento diferenciado <br>
-                Vendedores de alto nível de conhecimento técnico <br>
-                Preço Justo e uma infinidade de produtos e marcas para melhorar o atendimento <br>
+                Uma nova loja com conceito de atendimento diferenciado; <br><br>
+                Vendedores com alto nível de conhecimentos técnicos; <br><br>
+                Preço justo e uma infinidade de produtos e marcas para melhorar o atendimento; <br>
                 <br>
                 Qualidade e atendimento é com Ferragens e Acessórios André Medeiros LTDA. 
             </p>
+        
+           
             <br>
         </div>
 
@@ -427,8 +429,8 @@
 
                     -Nos tornar uma empresa de renome no ramo; <br>
                     -Sempre atender a necessidade do cliente; <br>                    
-                    -Oferencer um produto de qualidade a todos; <br>
-                    -Nós vendemos nossos produtos para que possa subrir a necessidade de outras pessoas.
+                    -Oferecer um produto de qualidade a todos; <br>
+                    -Nós vendemos nossos produtos para que possam suprir a necessidade de outras pessoas.
                             
 
                    </p>
@@ -450,9 +452,9 @@
                     -Aumentar nossa franquia e atingir todo o país; <br>
                     -Nos tornar referência na forma de atendimento ao cliente; <br>
                     -Passar uma forma diferenciada de trabalho; <br> 
-                    -Sempre manter nossa filosofia de trabalho <br> 
+                    -Sempre manter nossa filosofia de trabalho. <br> 
 
-
+<br>
                             
 
                    </p>

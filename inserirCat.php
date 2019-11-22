@@ -80,7 +80,7 @@ html{
 
 <img src="img/engrenagem.gif" width="80" alt="" style="float:left;"><img src="img/engrenagem.gif" width="80" alt="" style="float:right;">
            
-           <h1 style="text-align:center;color: rgb(0, 32, 96);text-shadow: 2px 2px 2px #c9c9c9;font-size: 50px;margin: 1% 0" class="titulo">Inserir Categoria</h1>
+           <h1 style="text-align:center;color: rgb(0, 32, 96);text-shadow: 2px 2px 2px #c9c9c9;font-size: 50px;margin: 1% 0" class="titulo">Cadastrar Categoria</h1>
                 
 
 
@@ -88,7 +88,7 @@ html{
 <ul class="nav nav-tabs">
     <li class="nav-item" ><a class="nav-link" href="Administrador.php">Controle Produtos</a></li>
     <li class="nav-item" ><a class="nav-link" href="CadastroProdutos.php">Cadastrar Produtos</a></li>
-    <li class="nav-item"><a style="background:#fdfdfd;" class="nav-link active" href="inserirCat.php">Inserir Categoria</a></li>
+    <li class="nav-item"><a style="background:#fdfdfd;" class="nav-link active" href="inserirCat.php">Cadastrar Categoria</a></li>
     <li class="nav-item"><a class="nav-link" href="Usuarios.php">Controle Usuários</a></li>  
     <li class="nav-item"><a class="nav-link" href="Avaliacoes.php">Controle Avaliações</a></li>                    
 </ul>
@@ -104,7 +104,7 @@ html{
                 <div class="form-group">
                 <label for="nome">Nome nova categoria:</label>
                <input required id="nome" name="nomeCat" placeholder="Ex: Martelo*" class="form-control" type="text">
-               <input type="submit" class="btn btn-primary" value="Cadastrar">
+               <input type="submit" class="btn btn-primary" value="Cadastrar" style="float: right;"><br>
                </div>
                
                
@@ -159,8 +159,8 @@ html{
                                             <hr>
                                             <h3>Deseja mesmo editar esta categoria?</h3>
                                                 <div style="text-align:center;" class="form-group"><br>
-                                                    <input type="submit" class="btn btn-primary btn-lg" value="Sim" style="float: left;">
-                                                    <button href="" class="btn btn-danger btn-lg" data-dismiss="modal" style="float: right;">Não</button>    
+                                                    <input type="submit" class="btn btn-primary btn-lg" value="Sim" style="float: right;">
+                                                    <button href="" class="btn btn-danger btn-lg" data-dismiss="modal" style="float: left;">Não</button>    
                                                 </div>
                                             </form>
                                         </div>
@@ -180,11 +180,11 @@ html{
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Deseja Excluir o item "<?php echo $categoria['nome'] ?>"?</h3>
+                                                <h3 class="card-title">Deseja excluir a categoria "<?php echo $categoria['nome'] ?>"?</h3>
                                             </div> 
                                         <div class="card-body">
-                                        <a href="ExcluiCat.php/?id=<?php echo $categoria['id'] ?>" style="margin:0 2%" class="btn btn-primary btn-lg">Sim</a>
-                                        <button href="" class="btn btn-danger btn-lg" data-dismiss="modal" style="float: right;">Não</button>    
+                                        <a href="ExcluiCat.php/?id=<?php echo $categoria['id'] ?>" style="margin:0 2%;float: right;" class="btn btn-primary btn-lg">Sim</a>
+                                        <button href="" class="btn btn-danger btn-lg" data-dismiss="modal" style="float: left;">Não</button>    
                                         
 
                                         </div>

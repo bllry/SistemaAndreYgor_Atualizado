@@ -67,7 +67,7 @@ border-radius: 0.5%;
 
 .opac2{
     height:100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
     
 }
 
@@ -200,7 +200,7 @@ border-radius: 0.5%;
 	color: dodgerblue;
 }
 
-.estrelas input[type=radio]:checked ~ label i.fa{
+.estrelas input[type=radio]:checked ~ label i.fa:before{
 	color: #CCC;
 }
 

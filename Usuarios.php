@@ -80,14 +80,14 @@ html{
 
 <img src="img/engrenagem.gif" width="80" alt="" style="float:left;"><img src="img/engrenagem.gif" width="80" alt="" style="float:right;">
            
-           <h1 style="text-align:center;color: rgb(0, 32, 96);text-shadow: 2px 2px 2px #c9c9c9;font-size: 50px;margin: 1% 0" class="titulo">Controle de Usuários</h1>
+           <h1 style="text-align:center;color: rgb(0, 32, 96);text-shadow: 2px 2px 2px #c9c9c9;font-size: 50px;margin: 1% 0" class="titulo">Controle de usuários</h1>
                 
 
 
                       <!-- Sub Navegação -->  
 <ul class="nav nav-tabs">
     <li class="nav-item" ><a class="nav-link" href="Administrador.php">Controle Produtos</a></li>
-    <li class="nav-item" ><a class="nav-link" href="CadastroProdutos.php">Cadastrar Produtos</a></li>
+    <li class="nav-item" ><a class="nav-link" href="CadastroProdutos.php">Cadastrar produtos</a></li>
     <li class="nav-item"><a class="nav-link" href="inserirCat.php">Inserir Categoria</a></li>
     <li class="nav-item"><a style="background:#fdfdfd;" class="nav-link active" href="Usuarios.php">Controle Usuários</a></li>    
     <li class="nav-item"><a class="nav-link" href="Avaliacoes.php">Controle Avaliações</a></li>  
@@ -116,7 +116,7 @@ html{
                     <th>Nome Completo</th>
                     <th>Login</th>
                     <th>E-mail</th>
-                    <th>Perfil</th>
+                    <!-- <th>Perfil</th> -->
                     <th>Ações</th>
                     </thead>
                     
@@ -134,7 +134,7 @@ html{
                     <td><?php echo $usuarios['nome'] ?></td>
                     <td><?php echo $usuarios['Login'] ?></td>
                     <td><?php echo $usuarios['email'] ?></td>
-                    <td><?php echo $usuarios['tipo'] ?></td>
+                    <!-- <td><?php //echo $usuarios['tipo'] ?></td> -->
                     <td>
                             <a data-toggle="modal" data-target="#EditUsu<?php echo $usuarios['id'] ?>" id="Editar" style="cursor:pointer;color:orange;"><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></a>
                             <a data-toggle="modal" data-target="#ExcluUsu<?php echo $usuarios['id'] ?>" style="color:red;" id="Excluir" href="ExcluiProd.php/?id=<?php echo $usuarios['id']; ?>"><i class="fa fa-trash-o fa-lg" aria-hidden="true"></i></a>
@@ -154,13 +154,13 @@ html{
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Deseja excluir "<?php echo $usuarios['nome'] ?>"?</h3>
+                                                <h3 class="card-title">Deseja Excluir <?php echo $usuarios['nome'] ?> ?</h3>
                                             </div> 
                                         <div class="card-body">
 
 
-                                        <a href="ExcluiUsu.php/?id=<?php echo $usuarios['id'] ?>" style="margin:0 2%" class="btn btn-primary btn-lg">Sim</a>
-                                        <button  class="btn btn-danger btn-lg" data-dismiss="modal" style="float: right;">Não</button>    
+                                        <a href="ExcluiUsu.php/?id=<?php echo $usuarios['id'] ?>" style="margin:0 2%" class="btn btn-primary btn-lg">Simr</a>
+                                        <button  class="btn btn-danger btn-lg" data-dismiss="modal">Não</button>    
                                         
 
                                         </div>
@@ -181,7 +181,7 @@ html{
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Deseja alterar a senha de "<?php echo $usuarios['nome'] ?>"?</h3>
+                                                <h3 class="card-title">Deseja alterar senha de <?php echo $usuarios['nome'] ?></h3>
                                             </div> 
                                         <div class="card-body">
                                         <form action="EditSenha.php" method="post">
@@ -230,7 +230,7 @@ html{
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Editar usuário "<?php echo $usuarios['nome'] ?>"?</h3>
+                                                <h3 class="card-title">Editar item <?php echo $usuarios['nome'] ?></h3>
                                             </div> 
                                         <div class="card-body"> 
                                                                             
@@ -271,14 +271,14 @@ html{
                                                     </div>
                                                     
                                                     
-                                                        <div class="form-group">
+                                                        <!-- <div class="form-group">
                                                         <label for="acesso">Selecione o novo tipo de usuario:</label>
                                                         <select class="form-control" name="acesso" id="acesso">
                                 
                                                             <option value="Admin">Acesso Comum</option>
                                                             <option value="AdminMaster">Acesso Geral</option>    
                                                         </select>
-                                                    </div>
+                                                    </div> -->
                                                     
                                                 <hr>
                                                 
@@ -328,7 +328,7 @@ html{
     
     <div class="card">  
     <div class="card-header">
-        <h3 class="card-title" style="text-align: center;">Novo Usuário</h3>
+        <h3 class="card-title">Cadastrar Usuários</h3>
     </div> 
     <div class="card-body"> 
       
@@ -364,19 +364,19 @@ html{
                 <input required id="email" name="emailUsu" class="form-control" type="email" requiered>
                </div>
                
-                 <div class="form-group">
+                 <!-- <div class="form-group">
                    <label for="acesso">Selecione o tipo de usuario</label>
                     <select requiered class="form-control" name="acesso" id="acesso">
                         <option value="" disabled="disabled" selected>Selecione o tipo de usuario</option>
                         <option value="Admin">Acesso Comum</option>
                         <option value="AdminMaster">Acesso Geral</option>    
                     </select>
-               </div>
+               </div> -->
                
             
                 <hr>
                 <div style="text-align:center;" class="form-group">
-               <input type="submit" class="btn btn-primary btn-lg" value="Cadastrar Usuário">    
+               <input type="submit" class="btn btn-primary btn-lg" value="Inserir Usuário">    
                </div>
                
 

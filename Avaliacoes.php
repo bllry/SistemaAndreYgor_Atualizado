@@ -87,7 +87,7 @@ html{
 
  <ul class="nav nav-tabs">
             <li class="nav-item" style="text-align:end;"><a class="nav-link" style="background:#fdfdfd;" href="Administrador.php">Controle Produtos</a></li>
-            <li class="nav-item"><a class="nav-link" href="CadastroProdutos.php">Cadastrar Produtos</a></li>
+            <li class="nav-item"><a class="nav-link" href="CadastroProdutos.php">Cadastrar produtos</a></li>
             <li class="nav-item"><a class="nav-link" href="InserirCat.php">Inserir Categoria</a></li>   
             <li class="nav-item"><a class="nav-link" href="Usuarios.php">Controle Usuários</a></li>
             <li class="nav-item"><a class="nav-link active" href="Avaliacoes.php">Controle Avaliações</a></li>                       
@@ -106,8 +106,8 @@ html{
                 <table class="table table-hover"  style="overflow:auto;">
                    <thead>
                     <th>#</th>
-<!--                    <th>Nome</th>-->
-                    <th>Comentário</th>
+                    <th>Ferramenta avaliada</th>
+                    <th>Comentario</th>
                     <th>Nota</th>
                     <th>Ações</th>
                     </thead>
@@ -123,7 +123,7 @@ html{
                      <tr>
 
                     <td><?php echo $comentarios['id'] ?></td>
-<!--                    <td><?php //echo $comentarios['nome'] ?></td>-->
+                    <td><?php echo $comentarios['nome'] ?></td>
                     <td><?php echo $comentarios['Descricao'] ?></td>
                     <td><?php echo $comentarios['avaliacao'] ?></td>
                  
@@ -144,11 +144,11 @@ html{
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Deseja excluir o item "<?php echo $comentarios['id'] ?>"?</h3>
+                                                <h3 class="card-title">Deseja Excluir o item <?php echo $comentarios['id'] ?> ?</h3>
                                             </div> 
                                         <div class="card-body">
                                         <a href="ExcluiAva.php/?id=<?php echo $comentarios['id']; ?>" margin:0 2%" class="btn btn-primary btn-lg">Sim</a>
-                                        <button href="" class="btn btn-danger btn-lg" data-dismiss="modal" style="float: right;">Não</button>
+                                        <button href="" class="btn btn-danger btn-lg" data-dismiss="modal">Não</button>
                                         </div>
                                     </div>
                                 </div>

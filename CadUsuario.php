@@ -5,17 +5,17 @@
     $email = $_POST['emailUsu'];
     $senha = $_POST['senhaUsu'];
     $login = $_POST['LoginUsu'];
-    $acesso = $_POST['acesso'];
+    //$acesso = $_POST['acesso'];
 
 
     //------------------Cadastro---------------\\
     
-    if ($senha != null && $nome != null && $login != null && $email != null && $acesso != null ){
+    if ($senha != null && $nome != null && $login != null && $email != null ){
 
 
        include "conect.php";
 
-       $sql = "INSERT INTO usuarios VALUES(null, '{$nome}', '{$login}', '{$email}', SHA1('{$senha}'), '{$acesso}' )";
+       $sql = "INSERT INTO usuarios VALUES(null, '{$nome}', '{$login}', '{$email}', SHA1('{$senha}'), 'admin' )";
 
         mysqli_query($con, $sql);
         

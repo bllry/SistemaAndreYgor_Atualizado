@@ -13,7 +13,25 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/inicio.css">
     <title>FerragensAndre - Inicio</title>
-            
+         <style type="text/css">
+             
+            #caixasEmpresa{
+                margin: 3% 0;box-shadow:2px 2px 2px #2f2f2f;border-radius:10px; border:solid 1px #000; background: #ffec8c;padding:0; transition: box-shadow 1s, margin 1s;
+
+            }
+
+
+            #caixasEmpresa:hover{
+                margin: 1%;
+    box-shadow: 8px 8px 8px #2f2f2f;
+    border-radius: 10px;
+    border: solid 1px #000;
+    background: #ffec8c;
+    padding: 0;
+    transition: box-shadow 1s, margin 1s;
+            }
+
+         </style>   
 </head>
 <body>
    
@@ -85,29 +103,28 @@
                         <input name="id" style="display:none;" type="text" value="<?php echo $row['id_prod']; ?>">
                         <h3 class="titulo">Avalie seu produto</h3>
                         <img class ="divisao img-fluid" src="img/divisorVert.png" alt="Divisor de Menu"> 
-                        <div class="form-group">    
+                        <div class="form-group">   
+                        <input type="text" style="display: none;" name="nome" value="<?php echo $row['nome_prod'] ?>"> 
                             
                             <label for="" style="font-weight:bold;">Avaliação</label> <br>
+
+
 <!--ÁREA DE AVALIAÇÃO DE ESTRELAS-->
                                 
 
 
+
                                 <!-- SUBSTITUIR (USADO PARA TESTES) sem estrelas -->
-    
-        <input type="radio" id="estrela1" name="estrela" value="1">
-        
-    
-        <input type="radio" id="estrela2" name="estrela" value="2">
-        
-    
-        <input type="radio" id="estrela3" name="estrela" value="3">
-        
-    
-        <input type="radio" id="estrela4" name="estrela" value="4">
-        
-    
-        <input type="radio" id="estrela5" name="estrela" value="5">
-                               
+                          
+                                <input type="radio" name="estrela" value="1">
+
+                                <input type="radio" name="estrela" value="2">
+
+                                <input type="radio" name="estrela" value="3">
+
+                                <input type="radio" name="estrela" value="4">
+
+                                <input type="radio" name="estrela" value="5">
                                 <!-- SUBSTITUIR (USADO PARA TESTES) -->
 
 
@@ -257,8 +274,8 @@
         <input type="radio" name="estrela" value="4" >
         <input type="radio" name="estrela" value="5" >
 
-
-                           <!--<div method="POST" action="processa.php" enctype="multipart/form-data">
+           
+                           <!-- <div method="POST" action="processa.php" enctype="multipart/form-data">
                             
                                 <div class="estrelas">
                                     
@@ -281,7 +298,7 @@
 
 
                                 </div>
-                            </div>-->
+                            </div> -->
 
 
 <!--FIM DA ÁREA DE AVALIAÇÃO DE ESTRELAS-->
@@ -354,19 +371,98 @@
 <section class="fundo2">
     <div class="opac2">
         <div class="row corpo">
-      <!--<div class="fundo-area-empresa1">-->
-            <div class="row justify-content-center" style="">
-                <div class="col-sm-10" style=""><br>
-                    <h2 style="text-align: center;border-bottom: 2px solid gold;padding-bottom: 15px;color: gold;">Ferragens e Acessórios André Medeiros Ltda.</h2>
-                        <div style="text-align: center;">
-                            <img src="img/LogoProjeto.png" alt="" style="width: 70%;">
-                            <p style="font-size: 32px;color: gold;">Uma nova loja com um conceito de atendimento diferenciado</p>
-                            <p style="font-size: 32px;color: gold;">Vendedores de auto nível de conhecimento técnico</p>
-                            <p style="font-size: 32px;color: gold;">Preço justo e uma infinidade de produtos e marcas para melhor atender</p>
-                            <p style="font-size: 32px;color: gold;">Qualidade e atendimento é com Ferragens e Acessórios André Medeiros Ltda. Marechal Deodoro, 50 - Centro - Juiz de Fora - MG</p>
-                        </div>
-                 <!--</div>-->
+          
+            <div class="col-md-12">
+            
+                          
+            <p style="float:right;font-size: 24px;width:100%; margin-top:2%;color:#ffec8c;text-shadow: 4px 4px 4px #2f2f2f; font-weight: bold;">
+
+
+                <i class="fa fa-building fa-lg" style="float:left;font-size: 11em;margin: 3% 5%;color:#ffec8c;text-shadow: 8px 8px 8px #2f2f2f;" aria-hidden="true"></i> <br>
+                Uma nova loja com conceito de atendimento diferenciado <br>
+                Vendedores de alto nível de conhecimento técnico <br>
+                Preço Justo e uma infinidade de produtos e marcas para melhorar o atendimento <br>
+                <br>
+                Qualidade e atendimento é com Ferragens e Acessórios André Medeiros LTDA. 
+            </p>
+            <br>
+        </div>
+
+        <br>
+        <br>
+            <div class="col-md-4" >
+
+                <div id="caixasEmpresa" >
+                  <div style="text-align:center;box-shadow:0.5px 0.5px 0.5px #000;padding:1%;background:rgba(9,9,121,1); border-radius:10px;"> <h2 style="color: #ffec8c; font-weight: 400;">Valores <i style="color: #ffec8c;" class="fa fa-anchor" aria-hidden="true"></i></h2>
+                 
+                   </div>
+
+                    <p style="margin:5%;text-align:center;font-weight: bold;color:rgb(7, 7, 80);">
+                        -Confiança; <br>
+                        -Respeito;  <br>
+                        -Qualidade; <br>
+                        -Garra; <br>
+                        -Integridade
+
+                   
+                            
+
+                   </p>
+                    
+
                 </div>
+            </div>
+
+           <div class="col-md-4">
+
+                <div id="caixasEmpresa">
+                  <div style=" text-align:center;box-shadow:0.5px 0.5px 0.5px #000;padding:1%;background:rgba(9,9,121,1); border-radius:10px;"> <h2 style="color: #ffec8c; font-weight: 400;">Missão <i  style="color: #ffec8c;" class="fa fa-bullseye" aria-hidden="true"></i>
+
+
+                </h2>
+                 
+                   </div>
+
+                    <p style="margin:5%;font-weight: bold;color:rgb(7, 7, 80);">
+
+                    -Nos tornar uma empresa de renome no ramo; <br>
+                    -Sempre atender a necessidade do cliente; <br>                    
+                    -Oferencer um produto de qualidade a todos; <br>
+                    -Nós vendemos nossos produtos para que possa subrir a necessidade de outras pessoas.
+                            
+
+                   </p>
+                    
+
+                </div>
+            </div>
+
+          <div class="col-md-4">
+
+                <div id="caixasEmpresa">
+                  <div style="box-shadow:0.5px 0.5px 0.5px #000;text-align:center;padding:1%;background:rgba(9,9,121,1); border-radius:10px;"> <h2 style="color: #ffec8c; font-weight: 400;">Visão <i style="color: #ffec8c;" class="fa fa-binoculars" aria-hidden="true"></i></h2>
+                 
+                   </div>
+
+                    <p style="margin:5%;font-weight: bold;color:rgb(7, 7, 80);">
+
+                    
+                    -Aumentar nossa franquia e atingir todo o país; <br>
+                    -Nos tornar referência na forma de atendimento ao cliente; <br>
+                    -Passar uma forma diferenciada de trabalho; <br> 
+                    -Sempre manter nossa filosofia de trabalho <br> 
+
+
+                            
+
+                   </p>
+                    
+
+                </div>
+                </div>
+
+                <br><br>
+
             </div> 
         </div> 
 

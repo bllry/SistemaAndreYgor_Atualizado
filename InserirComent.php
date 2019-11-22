@@ -25,6 +25,7 @@
     $id = $_POST['id'];
     $nota = $_POST['estrela'];
     $coment = $_POST['Coment'];
+    $nome = $_POST['nome'];
    
 
 
@@ -35,7 +36,7 @@
 
        include "conect.php";
 
-       $sql = "INSERT INTO comentarios(id, nome, Descricao, avaliacao) VALUES(null, 'teste', '" . $coment . "', '" . $nota . "')";
+       $sql = "INSERT INTO comentarios(id, nome, Descricao, avaliacao) VALUES(null, '". $nome . "', '" . $coment . "', '" . $nota . "')";
 
         mysqli_query($con, $sql);
         
@@ -45,7 +46,7 @@
 
           <div class="container" style="padding:10%;">
     
-         <h1 style=' text-align:center;color: #eccb1a;text-shadow: 2px 2px 3px #000;'>Comentário inserido com sucesso, obrigado pela avaliação.</h1>
+         <h1 style=' text-align:center;color: #eccb1a;text-shadow: 2px 2px 3px #000;'>Comentario inserido com sucesso, obrigado pela avaliação.</h1>
          <img src="img/LogoProjeto.png" alt="">
 
     

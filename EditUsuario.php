@@ -27,13 +27,13 @@
 
 <?php 
     $id = $_POST['id'];
-    $acesso = $_POST['acesso'];
+   // $acesso = $_POST['acesso'];
     //$senha = $_POST['senha'];
     $email = $_POST['email'];
     $login = $_POST['login'];
     $nome = $_POST['nome'];
     
-if(empty($nome) or empty($login) or empty($email) or empty($acesso)){
+if(empty($nome) or empty($login) or empty($email) ){
     echo "<h1>Campos Vazios não são aceitos, Preencha os dados</h1>";
 }
 else{
@@ -42,7 +42,7 @@ else{
     include "conect.php";
         
         
-    $sql = "UPDATE usuarios SET nome = '{$nome}', Login = '{$login}', email = '{$email}', tipo = '{$acesso}'  wHERE id = {$id}";
+    $sql = "UPDATE usuarios SET nome = '{$nome}', Login = '{$login}', email = '{$email}', tipo = 'admin'  WHERE id = {$id}";
 
 
 
@@ -66,7 +66,7 @@ if(mysqli_query($con, $sql)){
 
    <div class="container" style="padding:10%;">
     
-         <h1 style=' text-align:center;color: #eccb1a;text-shadow: 2px 2px 3px #000;'>Erro ao editar, tente novamente!</h1>
+         <h1 style=' text-align:center;color: #eccb1a;text-shadow: 2px 2px 3px #000;'>Erro ao editar, tente novamnete!</h1>
          <img src="img/LogoProjeto.png" alt="">
 
     

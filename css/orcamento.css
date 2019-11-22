@@ -1,0 +1,38 @@
+body, html{
+        height: 100%;
+    }
+    #lista{
+        border:solid 1px #000;
+        overflow-y: scroll;
+        padding:4%;
+        
+    }
+    #produtos{
+        border:solid 1px #000;
+        
+        padding:2%;
+        overflow-y: scroll;
+        display:inline;
+        text-align: center !important;
+    }
+    #tabela, .itens, .valores{
+        border:solid 1px #000;
+    
+    }
+    .itens, .valores{
+        /*padding:1% !important;
+        width: 100%;*/
+    }
+    .TodasListas{
+        border-bottom:1px solid #000;
+        list-style: none;
+        margin:3% 0;
+        
+    }
+    #tabela{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    
+    

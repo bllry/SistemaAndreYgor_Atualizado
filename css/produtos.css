@@ -1,0 +1,109 @@
+body, html{
+        height:100%;
+    }
+
+      #listaGeral{
+        border:solid 1px #000;
+        height:100%;
+        width:100%;
+        box-shadow: 4px 4px 2px #ccc;
+        /*background: #ffe564;*/
+        background: gray;
+        /*background: rgba(9,9,121,1) 100%;*/
+        
+      }
+      #lista{
+        list-style:none;
+        margin:0;
+        padding:0;
+        margin-top:5%;
+        text-align: center;
+      }
+      .categoria{
+        margin: 10% 0;
+        border:none;
+       
+      }
+      .categoriaLink{
+        border:none !important;
+        color: #ffe564;
+      }
+        
+      .imageProd{
+        width:79%;
+        text-align:center;
+        /*margin:0px 20%;*/
+        border: 1px solid #000;
+        border-radius:13%;
+      }
+        
+        /* ÁREA DE ESPAÇAMENTO ENTRE O CONTEÚDO E O RODAPÉ
+      .geralProd{
+          margin: 2% 0;
+          margin-bottom: ;
+      }*/
+        
+      .pesquisa-box{
+
+        background:#000;
+        width:26%;
+        border-radius:40px;
+        padding:10px;
+
+      }
+      .pesquisa-btn{
+        color:#fff;
+        float:right;
+        padding:1%;
+        border-radius:50%;
+        display:flex;
+       
+       
+      }
+      /*.pesquisa-txt{
+        border:none;
+        background:none;
+        outline:none;
+        color:#fff;
+        width: 94%;
+      }
+        */
+        body{
+            background: url('img/t1.jpg') no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        #Tudo{
+            margin: 0 2%;
+            /*background: rgba(0,0,0, 0.8)*/
+            /*background: #ffe564;*/
+        }
+        #TudoCam1{
+            padding-bottom: 5%;
+            /*background: rgba(0,0,0, 0.5);*/
+        }
+        /*
+        .Texto{
+            color: 
+        }
+
+            */
+/*.opac{
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}*/
+        
+.tamanho {
+    height: 250px;
+}
+        
+.input-focus:focus {
+    border-color: #4dabf7;
+    outline: none;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.0125), 0 0 8px rgba(34,139,230,0.5);
+}
+
+@media screen and (min-width: 540px) and (max-width: 960px;){
+    
+    
+}

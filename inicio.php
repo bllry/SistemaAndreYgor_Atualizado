@@ -261,8 +261,8 @@
                         <input style="display:none;" name="id" type="text" value="<?php echo $row['id_prod']; ?>">
                         <h3 class="titulo">Avalie seu produto</h3>
                         <img class ="divisao img-fluid" src="img/divisorVert.png" alt="Divisor de Menu"> 
-                        <div class="form-group">    
-                            
+                            <div class="form-group">
+                            <input type="text" style="display: none;" name="nome" value="<?php echo $row['nome_prod'] ?>">                            
                             <label for="" style="font-weight:bold;">Avaliação</label> <br>
 <!--ÁREA DE AVALIAÇÃO DE ESTRELAS-->
 

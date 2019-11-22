@@ -392,7 +392,7 @@
 
         <br>
         <br>
-            <div class="col-md-4" >
+            <div class="col-md-4" style="height: 350px;">
 
                 <div id="caixasEmpresa" >
                   <div style="text-align:center;box-shadow:0.5px 0.5px 0.5px #000;padding:1%;background:rgba(9,9,121,1); border-radius:10px;"> <h2 style="color: #ffec8c; font-weight: 400;">Valores <i style="color: #ffec8c;" class="fa fa-anchor" aria-hidden="true"></i></h2>
@@ -415,7 +415,7 @@
                 </div>
             </div>
 
-           <div class="col-md-4">
+           <div class="col-md-4" style="height: 350px;">
 
                 <div id="caixasEmpresa">
                   <div style=" text-align:center;box-shadow:0.5px 0.5px 0.5px #000;padding:1%;background:rgba(9,9,121,1); border-radius:10px;"> <h2 style="color: #ffec8c; font-weight: 400;">Missão <i  style="color: #ffec8c;" class="fa fa-bullseye" aria-hidden="true"></i>
@@ -439,7 +439,7 @@
                 </div>
             </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4" style="height: 350px;">
 
                 <div id="caixasEmpresa">
                   <div style="box-shadow:0.5px 0.5px 0.5px #000;text-align:center;padding:1%;background:rgba(9,9,121,1); border-radius:10px;"> <h2 style="color: #ffec8c; font-weight: 400;">Visão <i style="color: #ffec8c;" class="fa fa-binoculars" aria-hidden="true"></i></h2>

@@ -92,18 +92,22 @@
                                 
 
 
-
                                 <!-- SUBSTITUIR (USADO PARA TESTES) sem estrelas -->
-                          
-                                <input type="radio" name="estrela" value="1">
-
-                                <input type="radio" name="estrela" value="2">
-
-                                <input type="radio" name="estrela" value="3">
-
-                                <input type="radio" name="estrela" value="4">
-
-                                <input type="radio" name="estrela" value="5">
+    
+        <input type="radio" id="estrela1" name="estrela" value="1">
+        
+    
+        <input type="radio" id="estrela2" name="estrela" value="2">
+        
+    
+        <input type="radio" id="estrela3" name="estrela" value="3">
+        
+    
+        <input type="radio" id="estrela4" name="estrela" value="4">
+        
+    
+        <input type="radio" id="estrela5" name="estrela" value="5">
+                               
                                 <!-- SUBSTITUIR (USADO PARA TESTES) -->
 
 
@@ -245,7 +249,7 @@
                             <label for="" style="font-weight:bold;">Avaliação</label> <br>
 <!--ÁREA DE AVALIAÇÃO DE ESTRELAS-->
 
-<!--
+
                             
         <input type="radio" name="estrela" value="1" >
         <input type="radio" name="estrela" value="2" >
@@ -253,8 +257,8 @@
         <input type="radio" name="estrela" value="4" >
         <input type="radio" name="estrela" value="5" >
 
--->           
-                           <div method="POST" action="processa.php" enctype="multipart/form-data">
+
+                           <!--<div method="POST" action="processa.php" enctype="multipart/form-data">
                             
                                 <div class="estrelas">
                                     
@@ -277,7 +281,7 @@
 
 
                                 </div>
-                            </div>
+                            </div>-->
 
 
 <!--FIM DA ÁREA DE AVALIAÇÃO DE ESTRELAS-->

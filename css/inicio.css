@@ -200,7 +200,7 @@ border-radius: 0.5%;
 	color: dodgerblue;
 }
 
-.estrelas input[type=radio]:checked ~ label i.fa:before{
+.estrelas input[type=radio]:checked ~ label i.fa{
 	color: #CCC;
 }
 

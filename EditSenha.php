@@ -54,7 +54,7 @@
             ?>
 
 
-            <h1 style=' text-align:center;color: #eccb1a;text-shadow: 2px 2px 3px #000;'>Senha incorreta, tente novamente</h1>
+            <h1 style=' text-align:center;color: #eccb1a;text-shadow: 2px 2px 3px #000;'>Senha incorreta, tente novamente!</h1>
          <img src="img/LogoProjeto.png" alt="">
 
 
@@ -73,7 +73,7 @@
                 ?>
                 
 
-            <h1 style=' text-align:center;color: #eccb1a;text-shadow: 2px 2px 3px #000;'>Senha alterada com sucesso</h1>
+            <h1 style=' text-align:center;color: #eccb1a;text-shadow: 2px 2px 3px #000;'>Senha alterada com sucesso!</h1>
          <img src="img/LogoProjeto.png" alt="">
 
                 <?php

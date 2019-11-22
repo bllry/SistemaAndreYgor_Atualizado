@@ -80,14 +80,14 @@ html{
 
 <img src="img/engrenagem.gif" width="80" alt="" style="float:left;"><img src="img/engrenagem.gif" width="80" alt="" style="float:right;">
            
-           <h1 style="text-align:center;color: rgb(0, 32, 96);text-shadow: 2px 2px 2px #c9c9c9;font-size: 50px;margin: 1% 0" class="titulo">Controle de usuarios</h1>
+           <h1 style="text-align:center;color: rgb(0, 32, 96);text-shadow: 2px 2px 2px #c9c9c9;font-size: 50px;margin: 1% 0" class="titulo">Controle de Usuários</h1>
                 
 
 
                       <!-- Sub Navegação -->  
 <ul class="nav nav-tabs">
     <li class="nav-item" ><a class="nav-link" href="Administrador.php">Controle Produtos</a></li>
-    <li class="nav-item" ><a class="nav-link" href="CadastroProdutos.php">Cadastrar produtos</a></li>
+    <li class="nav-item" ><a class="nav-link" href="CadastroProdutos.php">Cadastrar Produtos</a></li>
     <li class="nav-item"><a class="nav-link" href="inserirCat.php">Inserir Categoria</a></li>
     <li class="nav-item"><a style="background:#fdfdfd;" class="nav-link active" href="Usuarios.php">Controle Usuários</a></li>    
     <li class="nav-item"><a class="nav-link" href="Avaliacoes.php">Controle Avaliações</a></li>  
@@ -154,13 +154,13 @@ html{
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Deseja Excluir <?php echo $usuarios['nome'] ?> ?</h3>
+                                                <h3 class="card-title">Deseja excluir "<?php echo $usuarios['nome'] ?>"?</h3>
                                             </div> 
                                         <div class="card-body">
 
 
-                                        <a href="ExcluiUsu.php/?id=<?php echo $usuarios['id'] ?>" style="margin:0 2%" class="btn btn-primary btn-lg">Simr</a>
-                                        <button  class="btn btn-danger btn-lg" data-dismiss="modal">Não</button>    
+                                        <a href="ExcluiUsu.php/?id=<?php echo $usuarios['id'] ?>" style="margin:0 2%" class="btn btn-primary btn-lg">Sim</a>
+                                        <button  class="btn btn-danger btn-lg" data-dismiss="modal" style="float: right;">Não</button>    
                                         
 
                                         </div>
@@ -181,7 +181,7 @@ html{
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Deseja alterar senha de <?php echo $usuarios['nome'] ?></h3>
+                                                <h3 class="card-title">Deseja alterar a senha de "<?php echo $usuarios['nome'] ?>"?</h3>
                                             </div> 
                                         <div class="card-body">
                                         <form action="EditSenha.php" method="post">
@@ -230,7 +230,7 @@ html{
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Editar item <?php echo $usuarios['nome'] ?></h3>
+                                                <h3 class="card-title">Editar usuário "<?php echo $usuarios['nome'] ?>"?</h3>
                                             </div> 
                                         <div class="card-body"> 
                                                                             
@@ -328,7 +328,7 @@ html{
     
     <div class="card">  
     <div class="card-header">
-        <h3 class="card-title">Usuários Cadastrados</h3>
+        <h3 class="card-title" style="text-align: center;">Novo Usuário</h3>
     </div> 
     <div class="card-body"> 
       
@@ -376,7 +376,7 @@ html{
             
                 <hr>
                 <div style="text-align:center;" class="form-group">
-               <input type="submit" class="btn btn-primary btn-lg" value="Inserir Usuário">    
+               <input type="submit" class="btn btn-primary btn-lg" value="Cadastrar Usuário">    
                </div>
                
 

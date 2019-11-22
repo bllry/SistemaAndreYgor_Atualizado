@@ -87,7 +87,7 @@ html{
                       <!-- Sub Navegação -->  
 <ul class="nav nav-tabs">
     <li class="nav-item" ><a class="nav-link" href="Administrador.php">Controle Produtos</a></li>
-    <li class="nav-item" ><a style="background:#fdfdfd;" class="nav-link active" href="CadastroProdutos.php">Cadastrar produtos</a></li>
+    <li class="nav-item" ><a style="background:#fdfdfd;" class="nav-link active" href="CadastroProdutos.php">Cadastrar Produtos</a></li>
     <li class="nav-item"><a class="nav-link" href="inserirCat.php">Inserir Categoria</a></li>
     <li class="nav-item"><a class="nav-link" href="Usuarios.php">Controle Usuários</a></li>  
     <li class="nav-item"><a class="nav-link" href="Avaliacoes.php">Controle Avaliações</a></li>                    
@@ -106,10 +106,10 @@ html{
                <input required id="nome" name="InserNome" placeholder="Ex: Martelo*" class="form-control" type="text">
                </div>
                <div class="form-group">
-               <label for="cat">Selecione a categoria</label>
+               <label for="cat">Selecione a categoria:</label>
                <select id="cat" style="color:#6c757d;" riquired class="form-control" name="InserCat" id="Categoria">
                    
-                   <option value="" disabled="disabled" selected="selected">Selecione a Categoria *</option>
+                   <option value="" disabled="disabled" selected="selected">Selecione a categoria *</option>
                    
                    <?php 
                        include "conect.php"; 
@@ -129,12 +129,12 @@ html{
             <label for="iinputGroupFile01mg">Foto:</label>
                <div class="custom-file">
                    <input name="InserImg" requiered type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
-                   <label style="text-align:justify; color:#6c757d;" class="custom-file-label" for="inputGroupFile01">Selecione a imagem do Produto</label>
+                   <label style="text-align:justify; color:#6c757d;" class="custom-file-label" for="inputGroupFile01">Selecione a imagem do produto</label>
                </div>
             </div>
                 
                 <div style="text-align:end;" class="form-group">
-               <input type="submit" class="btn btn-primary">    
+               <input type="submit" value="Cadastrar" class="btn btn-primary" style="float: left;">    
                </div>
                
 

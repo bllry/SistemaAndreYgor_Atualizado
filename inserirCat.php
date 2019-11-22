@@ -87,7 +87,7 @@ html{
                       <!-- Sub Navegação -->  
 <ul class="nav nav-tabs">
     <li class="nav-item" ><a class="nav-link" href="Administrador.php">Controle Produtos</a></li>
-    <li class="nav-item" ><a class="nav-link" href="CadastroProdutos.php">Cadastrar produtos</a></li>
+    <li class="nav-item" ><a class="nav-link" href="CadastroProdutos.php">Cadastrar Produtos</a></li>
     <li class="nav-item"><a style="background:#fdfdfd;" class="nav-link active" href="inserirCat.php">Inserir Categoria</a></li>
     <li class="nav-item"><a class="nav-link" href="Usuarios.php">Controle Usuários</a></li>  
     <li class="nav-item"><a class="nav-link" href="Avaliacoes.php">Controle Avaliações</a></li>                    
@@ -104,7 +104,7 @@ html{
                 <div class="form-group">
                 <label for="nome">Nome nova categoria:</label>
                <input required id="nome" name="nomeCat" placeholder="Ex: Martelo*" class="form-control" type="text">
-               <input type="submit" class="btn btn-primary" value="Inserir">
+               <input type="submit" class="btn btn-primary" value="Cadastrar">
                </div>
                
                
@@ -147,7 +147,7 @@ html{
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Editar <?php echo $categoria['nome'] ?> ?</h3>
+                                                <h3 class="card-title">Editar "<?php echo $categoria['nome'] ?>"?</h3>
                                             </div> 
                                         <div class="card-body"> 
                                     
@@ -157,10 +157,10 @@ html{
                                                 <input type="text" style="display:none" name="id" value="<?php echo $categoria['id'] ?>">
                                             
                                             <hr>
-                                            <h3>Deseja mesmo editar esses dados?</h3>
-                                                <div style="text-align:center;" class="form-group">
-                                                    <input type="submit" class="btn btn-primary btn-lg" value="Sim">
-                                                    <button href="" class="btn btn-danger btn-lg" data-dismiss="modal">Não</button>    
+                                            <h3>Deseja mesmo editar esta categoria?</h3>
+                                                <div style="text-align:center;" class="form-group"><br>
+                                                    <input type="submit" class="btn btn-primary btn-lg" value="Sim" style="float: left;">
+                                                    <button href="" class="btn btn-danger btn-lg" data-dismiss="modal" style="float: right;">Não</button>    
                                                 </div>
                                             </form>
                                         </div>
@@ -180,11 +180,11 @@ html{
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Deseja Excluir o item <?php echo $categoria['id'] ?> ?</h3>
+                                                <h3 class="card-title">Deseja Excluir o item "<?php echo $categoria['nome'] ?>"?</h3>
                                             </div> 
                                         <div class="card-body">
                                         <a href="ExcluiCat.php/?id=<?php echo $categoria['id'] ?>" style="margin:0 2%" class="btn btn-primary btn-lg">Sim</a>
-                                        <button href="" class="btn btn-danger btn-lg" data-dismiss="modal">Não</button>    
+                                        <button href="" class="btn btn-danger btn-lg" data-dismiss="modal" style="float: right;">Não</button>    
                                         
 
                                         </div>

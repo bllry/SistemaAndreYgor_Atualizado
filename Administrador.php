@@ -87,7 +87,7 @@
             <!-- Sub Navegação -->  
         <ul class="nav nav-tabs">
             <li class="nav-item" style="text-align:end;"><a class="nav-link active" style="background:#fdfdfd;" href="Administrador.php">Controle Produtos</a></li>
-            <li class="nav-item"><a class="nav-link" href="CadastroProdutos.php">Cadastrar produtos</a></li>
+            <li class="nav-item"><a class="nav-link" href="CadastroProdutos.php">Cadastrar Produtos</a></li>
             <li class="nav-item"><a class="nav-link" href="InserirCat.php">Inserir Categoria</a></li>   
             <li class="nav-item"><a class="nav-link" href="Usuarios.php">Controle Usuários</a></li>
             <li class="nav-item"><a class="nav-link" href="Avaliacoes.php">Controle Avaliações</a></li>                       
@@ -171,7 +171,7 @@
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Editar item <?php echo $row['nome_prod'] ?></h3>
+                                                <h3 class="card-title">Editar item "<?php echo $row['nome_prod'] ?>"</h3>
                                             </div> 
                                         <div class="card-body"> 
                                     
@@ -229,7 +229,7 @@
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Adicionar imagem (Cod:<?php echo $row['id_prod'] ?>)</h3>
+                                                <h3 class="card-title">Adicionar imagem a "<?php echo $row['nome_prod'] ?>"</h3>
                                             </div> 
                                         <div class="card-body">
                                             <img src="GaleriaProdutos/<?php echo $row['img'] ?>" width="80" alt="">
@@ -240,7 +240,7 @@
                                                     <label for="iinputGroupFile01mg">Foto:</label>
                                                     <div class="custom-file">
                                                         <input name="img" requiered type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
-                                                        <label style="text-align:justify; color:#6c757d;" class="custom-file-label" for="inputGroupFile01">Selecione a imagem do Produto</label>
+                                                        <label style="text-align:justify; color:#6c757d;" class="custom-file-label" for="inputGroupFile01">Selecione a imagem do produto</label>
                                                     </div>
                                                 </div> 
                                                 <hr>
@@ -268,7 +268,7 @@
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Deseja Excluir o item <?php echo $row['id_prod'] ?> ?</h3>
+                                                <h3 class="card-title">Deseja excluir o item "<?php echo $row['id_prod'] ?>"?</h3>
                                             </div> 
                                         <div class="card-body">
                                         <a href="ExcluiProd.php/?id=<?php echo $row['id_prod'] ?>" style="margin:0 2%" class="btn btn-primary btn-lg">Sim</a>
@@ -338,7 +338,7 @@
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Editar item <?php echo $row['nome_prod'] ?></h3>
+                                                <h3 class="card-title">Editar item "<?php echo $row['nome_prod'] ?>"</h3>
                                             </div> 
                                         <div class="card-body"> 
 
@@ -398,7 +398,7 @@
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Adicionar imagem (Cod:<?php echo $row['id_prod'] ?>)</h3>
+                                                <h3 class="card-title">Adicionar imagem a "<?php echo $row['nome_prod'] ?>"</h3>
                                             </div> 
                                         <div class="card-body">
                                             <img src="GaleriaProdutos/<?php echo $row['img'] ?>" width="80" alt="">
@@ -409,14 +409,14 @@
                                                     <label for="iinputGroupFile01mg">Foto:</label>
                                                     <div class="custom-file">
                                                         <input name="img" requiered type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
-                                                        <label style="text-align:justify; color:#6c757d;" class="custom-file-label" for="inputGroupFile01">Selecione a imagem do Produto</label>
+                                                        <label style="text-align:justify; color:#6c757d;" class="custom-file-label" for="inputGroupFile01">Selecione a imagem do produto</label>
                                                     </div>
                                                 </div> 
                                                 <hr>
                                                
                                                 <div class="form-group">
                                                     <input style="float:left;" type="submit" class="btn btn-primary" value="Enviar">
-                                                    <button href="" class="btn btn-danger" style="margin-right:2%;" data-dismiss="modal">Cancelar<//button>
+                                                    <button href="" class="btn btn-danger" style="margin-right:2%;float:right;" data-dismiss="modal">Cancelar</button>
                                                     
                                                 </div>
                                             </form>
@@ -437,11 +437,11 @@
                                     <div>
                                         <div class="card">  
                                             <div class="card-header">
-                                                <h3 class="card-title">Deseja Excluir o item <?php echo $row['id_prod'] ?> ?</h3>
+                                                <h3 class="card-title">Deseja excluir o item "<?php echo $row['nome_prod'] ?>"?</h3>
                                             </div> 
                                         <div class="card-body">
                                         <a href="ExcluiProd.php/?id=<?php echo $row['id_prod'] ?>" style="margin:0 2%" class="btn btn-primary btn-lg">Sim</a>
-                                        <button href="" class="btn btn-danger btn-lg" data-dismiss="modal">Não</button>
+                                        <button href="" style="float: right;" class="btn btn-danger btn-lg" data-dismiss="modal">Não</button>
                                         </div>
                                     </div>
                                 </div>

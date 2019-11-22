@@ -42,7 +42,7 @@
 
           <div class="container" style="padding:10%;">
     
-         <h1 style=' text-align:center;color: #eccb1a;text-shadow: 2px 2px 3px #000;'>Produto inserido com sucesso!</h1>
+         <h1 style=' text-align:center;color: #eccb1a;text-shadow: 2px 2px 3px #000;'>Produto cadastrado com sucesso!</h1>
          <img src="img/LogoProjeto.png" alt="">
 
     

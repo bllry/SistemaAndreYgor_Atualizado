@@ -1,5 +1,6 @@
 <html>
 <?php include "head.php"; ?>
+<?php include "validar.php"; ?>
 <style>
         
 html{
@@ -75,7 +76,7 @@ html{
     </style>
 
 <body>
-<?php session_start();
+<?php 
     include "navegacaoAdm.php";?>  
 
 <img src="img/engrenagem.gif" width="80" alt="" style="float:left;"><img src="img/engrenagem.gif" width="80" alt="" style="float:right;">

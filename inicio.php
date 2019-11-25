@@ -110,25 +110,32 @@
 
 
 <!--ÁREA DE AVALIAÇÃO DE ESTRELAS-->
-                                
+     
+<div method="POST" action="processa.php" enctype="multipart/form-data">
+                                                                                      
+    <div class="estrelas">
+    <input type="radio" id="vazio" name="estrela" value="" checked>
 
+        <!-- SUBSTITUIR (USADO PARA TESTES) sem estrelas -->
 
+        <label for="estrela1" style="cursor: pointer;"><i class="fa"></i></label>
+        <input type="radio" name="estrela" id="estrela1" value="1">
 
-                                <!-- SUBSTITUIR (USADO PARA TESTES) sem estrelas -->
-                          
-                                <input type="radio" name="estrela" value="1">
+       <label for="estrela2" style="cursor: pointer;"><i class="fa"></i></label>
+        <input type="radio" name="estrela" id="estrela2" value="2">
 
-                                <input type="radio" name="estrela" value="2">
+       <label for="estrela3" style="cursor: pointer;"><i class="fa"></i></label>
+        <input type="radio" name="estrela" id="estrela3" value="3">
 
-                                <input type="radio" name="estrela" value="3">
+       <label for="estrela4" style="cursor: pointer;"><i class="fa"></i></label>
+        <input type="radio" name="estrela" id="estrela4" value="4">
 
-                                <input type="radio" name="estrela" value="4">
+       <label for="estrela5" style="cursor: pointer;"><i class="fa"></i></label>
+        <input type="radio" name="estrela" id="estrela5" value="5">
+        <!-- SUBSTITUIR (USADO PARA TESTES) -->
 
-                                <input type="radio" name="estrela" value="5">
-                                <!-- SUBSTITUIR (USADO PARA TESTES) -->
-
-
-
+    </div>
+</div>
 
 
 
@@ -392,7 +399,7 @@
 
         <br>
         <br>
-            <div class="col-md-4" style="height: 350px;">
+            <div class="col-md-4" style="height: 300px;">
 
                 <div id="caixasEmpresa" >
                   <div style="text-align:center;box-shadow:0.5px 0.5px 0.5px #000;padding:1%;background:rgba(9,9,121,1); border-radius:10px;"> <h2 style="color: #ffec8c; font-weight: 400;">Valores <i style="color: #ffec8c;" class="fa fa-anchor" aria-hidden="true"></i></h2>
@@ -415,7 +422,7 @@
                 </div>
             </div>
 
-           <div class="col-md-4" style="height: 350px;">
+           <div class="col-md-4" style="height: 300px;">
 
                 <div id="caixasEmpresa">
                   <div style=" text-align:center;box-shadow:0.5px 0.5px 0.5px #000;padding:1%;background:rgba(9,9,121,1); border-radius:10px;"> <h2 style="color: #ffec8c; font-weight: 400;">Missão <i  style="color: #ffec8c;" class="fa fa-bullseye" aria-hidden="true"></i>
@@ -439,7 +446,7 @@
                 </div>
             </div>
 
-          <div class="col-md-4" style="height: 350px;">
+          <div class="col-md-4" style="height: 300px;">
 
                 <div id="caixasEmpresa">
                   <div style="box-shadow:0.5px 0.5px 0.5px #000;text-align:center;padding:1%;background:rgba(9,9,121,1); border-radius:10px;"> <h2 style="color: #ffec8c; font-weight: 400;">Visão <i style="color: #ffec8c;" class="fa fa-binoculars" aria-hidden="true"></i></h2>

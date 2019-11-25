@@ -176,7 +176,7 @@
                     <div class="CaixaLog col-sm-6" style="text-align:end" ><!--style="text-align:end;"-->
                     <?php 
                        echo "<h5 style='color: #eccb1a;margin-bottom: 0;margin-top: 1%;text-shadow: 2px 2px 3px #000;'>Seja bem-vindo, " . $_SESSION['usuario'] . "</h5>"; 
-                       echo "<a href='loading.php' style='color: #eccb1a;margin-bottom: 0;margin-top: 1%;text-shadow: 2px 2px 3px #000;'>Sair</a>"?>
+                       echo "<a href='sair.php' style='color: #eccb1a;margin-bottom: 0;margin-top: 1%;text-shadow: 2px 2px 3px #000;'>Sair</a>"?>
                     </div>
                   
                         

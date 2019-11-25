@@ -2,6 +2,10 @@
 <html lang="pt-br">
 <head>
     
+  
+    
+    
+   <?php include "validar.php"; ?>  
    <?php include "head.php"; ?> 
 
     <style>
@@ -77,7 +81,7 @@
     </head>  
 
 <body>
-    <?php session_start();
+    <?php
     include "navegacaoAdm.php";?>    
         
         <img src="img/engrenagem.gif" width="80" alt="" style="float:left;"><img src="img/engrenagem.gif" width="80" alt="" style="float:right;">

@@ -25,9 +25,8 @@ $password =  $_POST['senha'];
             header("location: Administrador.php");
 
         }else{
-
+            header("location: incorreto.php");
             ?>
-                <h1>Senha Invalida!</h1>
 
             <?php
             echo "<meta http-equiv='refresh' content='0.1; http://localhost/SistemaAndreYgor/inicio.php'>";
